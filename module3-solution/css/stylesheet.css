@@ -1,0 +1,138 @@
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+    font-family: Gill Sans, sans-serif;
+    font-size: 1.75em;
+
+}
+
+h3 {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 35px;
+  margin-bottom:auto;
+  font-family: Gill Sans, sans-serif;
+  font-size: 1em;
+}
+
+p {
+  border: 1px solid black;
+  margin: auto;
+  font-family: Gill Sans, sans-serif;
+  color: white;
+  font-size: 1.25em;
+}
+p.subtitle1 {
+  text-align: center;
+  width: 100px;
+  float: right;
+  font-weight: bold;
+  background-color: #a2c9c9;
+
+}
+p.subtitle2 {
+  text-align: center;
+  width: 100px;
+  float: right;
+  font-weight: bold;
+  background-color: #692517;
+
+}
+p.subtitle3 {
+  text-align: center;
+  width: 100px;
+  float: right;
+  font-weight: bold;
+  background-color: #d9c9c9;
+
+}
+
+div {
+  background-color: #c9c9c9;
+  width: 100%;
+  height: 150px;
+  margin: 10px;
+  
+  }
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+    background-color:#ffffff;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left; margin-left: 2--
+    border: 1px solid green;
+        overflow: hidden;
+
+  }
+  .col-lg-4 {
+    width: 30%;
+      border: 1px solid black;
+
+  }
+      .container {
+  width: 95%;
+    margin: auto;
+}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+        overflow: hidden;
+
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+    .col-md-1 {
+    width: 95%;
+      border: 1px solid black;
+
+  }
+  
+  .col-md-6 {
+    width: 46%;   border: 1px solid black;
+ }
+    .container {
+  width: 95%;
+    margin: auto;
+}
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-sm-1 {
+    float: left;
+    border: 1px solid black;
+    margin-top: 20px;
+        overflow: hidden;
+
+  }
+  .col-md-1 {
+    width: 100%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-6 {
+    width: 50%; }
+    .col-sm-1 {
+    width: 100%;
+  }
+  .container {
+  width: 85%;
+    margin: auto;
+}
+}
+</style>
